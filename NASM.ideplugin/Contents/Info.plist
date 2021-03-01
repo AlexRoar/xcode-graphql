@@ -5,7 +5,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apollographql.xcode.nasm</string>
+	<string>com.alexdr.xcode.nasm</string>
 	<key>CFBundleName</key>
 	<string>NASM Plug-in</string>
 	<key>CFBundleShortVersionString</key>

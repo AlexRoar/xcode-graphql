@@ -12,6 +12,24 @@
             Chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_.-";
             CaseSensitive = NO;
             Words = (
+                "extern",
+                "global",
+                "section",
+                "resb",
+                "resw",
+                "resd",
+                "resq",
+                "rest",
+                "reso",
+                "resy",
+                "resz",
+                "db",
+                "dw",
+                "dd",
+                "dq",
+                "dy",
+                "dz",
+                "equ",
                 "adc",
                 "add",
                 "addpd",
@@ -764,7 +782,7 @@
                 "xmm14",
                 "xmm15",
             );
-            Type = "xcode.syntax.identifier.type.system";
+            Type = "xcode.syntax.identifier.constant.system";
         };
     },
 
@@ -787,6 +805,22 @@
             Type = "xcode.syntax.plain";
         };
     },
+    {
+        Identifier = "xcode.lang.nasm.dirs";
+        Syntax = {
+            StartChars = ".";
+            Chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_";
+            Type = "xcode.syntax.attribute";
+        };
+    },
+    {
+        Identifier = "xcode.lang.nasm.macro";
+        Syntax = {
+            StartChars = "%";
+            Chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_";
+            Type = "xcode.syntax.preprocessor";
+        };
+    },
     
     // The following rule returns tokens to the other rules
     {
@@ -798,6 +832,8 @@
                 "xcode.lang.string",
                 "xcode.lang.string.backquote",
                 "xcode.lang.string.singlequote",
+                "xcode.lang.nasm.dirs",
+                "xcode.lang.nasm.macro",
                 "xcode.lang.nasm.regs",
                 "xcode.lang.nasm.keyword",
                 "xcode.lang.number",
