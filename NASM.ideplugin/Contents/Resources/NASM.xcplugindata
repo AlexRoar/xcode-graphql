@@ -6,14 +6,14 @@
 	<dict>
 		<key>extensions</key>
 		<dict>
-			<key>Xcode.FileDataType.GraphQL</key>
+			<key>Xcode.FileDataType.nasm</key>
 			<dict>
 				<key>id</key>
-				<string>Xcode.FileDataType.GraphQL</string>
+				<string>Xcode.FileDataType.NASM</string>
 				<key>localizedDescription</key>
-				<string>GraphQL Query Document</string>
+				<string>NASM file</string>
 				<key>name</key>
-				<string>File type for GraphQL</string>
+				<string>File type for NASM</string>
 				<key>point</key>
 				<string>Xcode.FileDataType</string>
 				<key>typeConformedTo</key>
@@ -24,28 +24,28 @@
 					</dict>
 				</array>
 				<key>typeIdentifier</key>
-				<string>public.graphql-source</string>
+				<string>public.nasm-source</string>
 				<key>version</key>
 				<string>1.0</string>
 			</dict>
-			<key>Xcode.FileDataTypeDetector.GraphQL</key>
+			<key>Xcode.FileDataTypeDetector.nasm</key>
 			<dict>
 				<key>detectedTypeIdentifier</key>
-				<string>public.graphql-source</string>
+				<string>public.nasm-source</string>
 				<key>id</key>
-				<string>Xcode.FileDataTypeDetector.GraphQL</string>
+				<string>Xcode.FileDataTypeDetector.NASM</string>
 				<key>matchesExtension</key>
-				<string>graphql</string>
+				<string>nasm</string>
 				<key>point</key>
 				<string>Xcode.FileDataTypeDetector</string>
 			</dict>
-			<key>Xcode.SourceCodeLanguage.GraphQL</key>
+			<key>Xcode.SourceCodeLanguage.nasm</key>
 			<dict>
 				<key>commentSyntax</key>
 				<array>
 					<dict>
 						<key>prefix</key>
-						<string>#</string>
+						<string>;</string>
 					</dict>
 				</array>
 				<key>conformsTo</key>
@@ -59,32 +59,32 @@
 				<array>
 					<dict>
 						<key>identifier</key>
-						<string>public.graphql-source</string>
+						<string>public.nasm-source</string>
 					</dict>
 				</array>
 				<key>id</key>
-				<string>Xcode.SourceCodeLanguage.GraphQL</string>
+				<string>Xcode.SourceCodeLanguage.NASM</string>
 				<key>languageName</key>
-				<string>GraphQL</string>
+				<string>NASM</string>
 				<key>languageSpecification</key>
-				<string>xcode.lang.graphql</string>
+				<string>xcode.lang.nasm</string>
 				<key>name</key>
-				<string>GraphQL Language</string>
+				<string>NASM Language</string>
 				<key>point</key>
 				<string>Xcode.SourceCodeLanguage</string>
 				<key>version</key>
 				<string>1.0</string>
 			</dict>
-			<key>Xcode.IDEKit.Inspector.FileIdentityAndType.public.graphql-source</key>
+			<key>Xcode.IDEKit.Inspector.FileIdentityAndType.public.nasm-source</key>
 			<dict>
 				<key>fileDataType</key>
-				<string>public.graphql-source</string>
+				<string>public.nasm-source</string>
 				<key>group</key>
 				<string>Xcode.IDEKit.Inspector.FileInspectorTypeGroup.Sourcecode.Various</string>
 				<key>id</key>
-				<string>Xcode.IDEKit.Inspector.FileIdentityAndType.public.graphql-source</string>
+				<string>Xcode.IDEKit.Inspector.FileIdentityAndType.public.nasm-source</string>
 				<key>name</key>
-				<string>File Inspector Entry - GraphQL Query Document</string>
+				<string>File Inspector Entry - NASM Document</string>
 				<key>point</key>
 				<string>Xcode.IDEKit.FileInspectorTypeGroupEntry</string>
 				<key>version</key>

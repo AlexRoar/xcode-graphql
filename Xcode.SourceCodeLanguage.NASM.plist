@@ -6,13 +6,7 @@
 	<array>
 		<dict>
 			<key>prefix</key>
-			<string>/*</string>
-			<key>suffix</key>
-			<string>*/</string>
-		</dict>
-		<dict>
-			<key>prefix</key>
-			<string>//</string>
+			<string>;</string>
 		</dict>
 	</array>
 	<key>conformsToLanguageIdentifiers</key>
@@ -24,13 +18,13 @@
 		<string>com.netscape.javascript-source</string>
 	</array>
 	<key>identifier</key>
-	<string>Xcode.SourceCodeLanguage.GraphQL</string>
+	<string>Xcode.SourceCodeLanguage.nasm</string>
 	<key>isHidden</key>
 	<false/>
 	<key>languageName</key>
-	<string>GraphQL</string>
+	<string>NASM</string>
 	<key>languageSpecification</key>
-	<string>xcode.lang.graphql</string>
+	<string>xcode.lang.nasm</string>
 	<key>supportsIndentation</key>
 	<true/>
 	<key>allowWhitespaceTrimming</key>
@@ -39,8 +33,7 @@
 	<false/>
 	<key>indentationTriggers</key>
 	<array>
-		<string>{</string>
-		<string>}</string>
+		<string>:</string>
 	</array>
 </dict>
 </plist>
